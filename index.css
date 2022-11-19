@@ -12,7 +12,7 @@ section {
 
 form{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr minmax(auto, 3fr) 3fr;
     column-gap: 1em;
     padding: 1em;
 }
@@ -28,6 +28,9 @@ select {
     cursor: pointer;
 }
 
+input[type="color"]{
+    height: 3rem;
+}
 select {
     font-size: 1rem;
     font-weight: 600;
@@ -87,7 +90,7 @@ button {
 .hex {
     align-self: end;
     background: white !important;
-    padding: 1em;
+    padding: 1em .25rem;
     font-size: .75rem;
     color: #2B283A;
 }
