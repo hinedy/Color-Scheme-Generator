@@ -1,4 +1,11 @@
-# cobee413d985cc25e81a58af9
+# Color Scheme Generator
+
+A JavaScript app to generate color schemes based on color-wheel relations using [The Color API](https://www.thecolorapi.com/docs#schemes-generate-scheme-get)
+
+## Part of Scrimba's [The Frontend Career Path](https://scrimba.com/learn/frontend)
+A Module 9 (Working with APIs) solo project. 
+
+
 
 Quick start:
 
