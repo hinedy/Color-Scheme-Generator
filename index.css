@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    width: 90%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    column-gap: 1em;
+    padding: 1em;
+}
+
+input,
+button,
+select {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+select {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+option {
+    font-weight: 400;
+}
+
+button {
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(min-content, 1fr));
+    background: pink;
+    text-align: center;
+    cursor: copy
+}
+
+.color {
+    display: grid;
+    height: 80vh
+}
+
+.color:hover {
+    box-shadow: 0 1px #000000;
+}
+
+/* PLACEHOLDER COLORS*/
+
+.color.one {
+    background: #000000
+}
+
+.color.two {
+    background: #1A1919
+}
+
+.color.three {
+    background: #343232
+}
+
+.color.four {
+    background: #4F4A4A
+
+}
+
+.color.five {
+    background: #6A6262
+}
+
+/*----------------------------*/
+
+.hex {
+    align-self: end;
+    background: white !important;
+    padding: 1em;
+    font-size: .75rem;
+    color: #2B283A;
+}
