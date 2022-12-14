@@ -5,16 +5,6 @@ A JavaScript app to generate color schemes based on color-wheel relations using 
 ## Part of Scrimba's [The Frontend Career Path](https://scrimba.com/learn/frontend)
 A Module 9 (Working with APIs) solo project. 
 
-
-
-Quick start:
-
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
